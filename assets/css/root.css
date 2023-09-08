@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap%27");
+:root {
+  /* font-size */
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 28px;
+  --fs-xxl: 85px;
+  --fs-3xl: 37.6px;
+  /* font-weight */
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  /* colours */
+  --text-red: #f61529;
+  --bg-red: #f61529;
+}
+/* font-family */
+.ff-ibm {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.ff-press {
+  font-family: "Press Start 2P", "cursive";
+}
+.fs_14 {
+  font-size: var(--fs-sm);
+}
+.fs_16 {
+  font-size: var(--fs-md);
+}
+.fs_20 {
+  font-size: var(--fs-lg);
+}
+.fs_28 {
+  font-size: var(--fs-xl);
+}
+.fs_85 {
+  font-size: var(--fs-xxl);
+}
+.fs_37 {
+  font-size: var(--fs-3xl);
+}
+.text_red {
+  color: var(--text-red);
+}
+.bg_red {
+  background-color: var(--bg-red);
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  :root {
+    /* font-size */
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 28px;
+    --fs-xxl: 50px !important;
+    --fs-3xl: 37.6px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  :root {
+    /* font-size */
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-xxl: 50px !important;
+    --fs-3xl: 37.6px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    /* font-size */
+    --fs-sm: 12px !important;
+    --fs-md: 16px !important;
+    --fs-lg: 14px !important;
+    --fs-xl: 16px !important;
+    --fs-xxl: 24px !important;
+    --fs-3xl: 14px !important;
+  }
+}
