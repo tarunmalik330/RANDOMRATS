@@ -16,6 +16,12 @@
 .z_index_3 {
   z-index: 3px;
 }
+.pt_60 {
+  padding-top: 60px;
+}
+.pb_40{
+  padding-bottom: 40px;
+}
 .line_height {
   line-height: 161px;
 }
@@ -52,7 +58,7 @@
 .mw_80 {
   max-width: 80px;
 }
-.pt_15{
+.pt_15 {
   padding-top: 15px;
 }
 .top_cut_img::after {
