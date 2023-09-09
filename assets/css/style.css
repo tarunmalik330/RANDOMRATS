@@ -54,11 +54,11 @@
 }
 .hover_up:hover svg path {
   fill: var(--bg-red);
-  transition: 0.4s linear !important;
+   transition: 0.4s linear !important;
 }
 .hover_up:hover svg circle {
   fill: white;
-  transition: 0.4s linear !important;
+   transition: 0.4s linear !important;
 }
 .mw_80 {
   max-width: 80px;
@@ -69,7 +69,7 @@
 .pr-16 {
   padding-right: 16px;
 }
-.pr-28 {
+.pr-28{
   padding-right: 28px;
 }
 .top_cut_img::after {
@@ -84,7 +84,7 @@
   width: 100%;
   z-index: 4 !important;
 }
-.pr-40 {
+.pr-40{
   padding-right: 40px;
 }
 ::-webkit-scrollbar {
