@@ -19,7 +19,7 @@
 .pt_60 {
   padding-top: 60px;
 }
-.pb_40{
+.pb_40 {
   padding-bottom: 40px;
 }
 .line_height {
@@ -61,7 +61,7 @@
 .pt_15 {
   padding-top: 15px;
 }
-.pr-10{
+.pr-10 {
   padding-right: 10px;
 }
 .top_cut_img::after {
@@ -75,6 +75,20 @@
   max-width: 70px !important;
   width: 100%;
   z-index: 4 !important;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(134deg, rgb(67, 66, 66) -0.47%, black), #d9d9d9;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(134deg, rgb(67, 66, 66) -0.47%, black), #d9d9d9;
 }
 @keyframes swing {
   0% {
