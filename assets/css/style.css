@@ -52,8 +52,13 @@
 .hover_up {
   transition: 0.4s linear !important;
 }
-.pointer {
-  cursor: pointer !important;
+.hover_up:hover svg path {
+  fill: var(--bg-red);
+   transition: 0.4s linear !important;
+}
+.hover_up:hover svg circle {
+  fill: white;
+   transition: 0.4s linear !important;
 }
 .mw_80 {
   max-width: 80px;
@@ -91,14 +96,14 @@
   background: linear-gradient(134deg, rgb(67, 66, 66) -0.47%, black), #d9d9d9;
 }
 .animation {
-    animation: swing 2s linear infinite;
+  animation: swing 2s linear infinite;
 }
 .duration_300 {
-    transition: 300ms linear;
+  transition: 300ms linear;
 }
 
 .pointer_event_none {
-    pointer-events: none;
+  pointer-events: none;
 }
 @keyframes swing {
   0% {
