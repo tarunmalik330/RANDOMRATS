@@ -61,6 +61,9 @@
 .pt_15 {
   padding-top: 15px;
 }
+.pr-10{
+  padding-right: 10px;
+}
 .top_cut_img::after {
   background-image: url("/assets/images/png/top-cut.png");
   background-size: 100% 100% !important;

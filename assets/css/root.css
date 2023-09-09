@@ -74,9 +74,9 @@
     /* font-size */
     --fs-sm: 12px !important;
     --fs-md: 16px !important;
-    --fs-lg: 14px !important;
-    --fs-xl: 16px !important;
+    --fs-lg: 16px !important;
+    --fs-xl: 20px !important;
     --fs-xxl: 24px !important;
-    --fs-3xl: 14px !important;
+    --fs-3xl: 16px !important;
   }
 }
